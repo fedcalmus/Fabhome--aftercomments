@@ -132,11 +132,12 @@ header {
     max-width: 1070px;
     margin:0 auto;
     padding: 30px 10px;
-    text-align: center;
+
 }
 
 .propertySection{
     background-color: #2b2b2b;
+    text-align: center;
 }
 
 
@@ -219,7 +220,7 @@ span{
 }
 
 .slideshow{
-    max-width: 650px;
+
     background-color: #efefef;
     padding: 10px;
     margin: 0 auto;
@@ -265,7 +266,6 @@ span{
     font-size:70px;
     color:#f34963;
     font-family: 'Roboto Light', Arial, sans-serif;
-    font-weight: lighter;
 
 }
 
@@ -277,7 +277,6 @@ span{
     font-size: 24px;
     color: #f34963;
     font-family: 'Roboto Light', Arial, sans-serif;
-    font-weight: lighter;
     margin: 23px 5px;
     line-height: 1;
 }
@@ -331,14 +330,11 @@ span{
     margin: 25px 0;
 }
 
-.householderImage{
-    display: inline-block;
-}
 
 .householderImage img{
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 62px;
+    height: 62px;
     margin: 5px 0;
 }
 
@@ -418,7 +414,6 @@ span{
 
 .propertyDescription p{
     font-size: 16px;
-    color: #999999;
     font-family: 'Roboto Light', Arial, sans-serif;
     font-weight: lighter;
     padding: 15px 0;
@@ -443,7 +438,6 @@ span{
 }
 
 .amenitiesList li i{
-    color:#999999;
     margin-right:10px;
 }
 
@@ -457,17 +451,14 @@ footer{
 }
 
 .footerSections{
-    display: inline-flex;
-    padding: 50px 0px;
-    opacity: 0.8;
+    display: flex;
+    justify-content: space-around;
 }
 
-.company{
-    margin-right: 130px;
-}
 
 .footerList{
     list-style: none;
+    padding-top: 15px;
 }
 
 .footerList .footerListItems{
@@ -476,6 +467,10 @@ footer{
     color:#ffffff;
     font-family: 'Roboto Light', Arial, sans-serif;
     font-weight: lighter;
+}
+
+.footerList li{
+    padding-bottom: 5px;
 }
 
 .footerList a:hover{
