@@ -76,7 +76,7 @@ header {
     padding:30px 15px;
 }
 
-.logo{
+.leftSideContent{
     float:left;
 }
 
@@ -129,27 +129,17 @@ header {
 }
 
 .container{
-    max-width: 1000px;
+    max-width: 1070px;
     margin:0 auto;
     padding: 30px 10px;
-    position:relative;
-
+    text-align: center;
 }
 
 .propertySection{
     background-color: #2b2b2b;
-    width: 100%;
 }
 
-.propertyContent{
-    padding:50px 0 50px 0;
-    margin: 0 auto;
-    width: 500px;
-    max-width:1170px;
-    text-align: center;
-    font-family: 'Roboto Light', Arial, sans-serif;
 
-}
 .propertyName{
     font-size:30px;
     color:#ffffff;
@@ -164,51 +154,49 @@ header {
 
 }
 
-/*!*is this correct to give general styles to div as the elements have some general styles?*!*/
+span{
+    display: block;
+}
+
 .propertyDetails{
-    display:inline-block;
     float:left;
     font-weight: lighter;
     color: #f34963;
     font-family: 'Roboto Light', Arial, sans-serif;
+    margin-left:20px;
 }
 
-.propertyInfo{
-    max-width: 950px;
-    margin: 0 auto;
-    width: 100%;
-    padding-top: 35px;
-
+.propertyType{
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    float: right;
+    margin: 15px 0;
 }
+
+.propertyType li{
+    margin-left:50px;
+}
+
 
 .propertyPrice{
     font-size: 40px;
 }
-.propertyTypes{
-    display: inline-flex;
-    float: right;
-    margin: 17px;
-}
+
 
 .propertyTexts{
-    float:right;
-    margin-left: 15px;
-    margin-top:5px;
-
+    display: inline-block;
+    position: relative;
+    bottom: 6px;
+    left: 10px;
 }
-
-
 
 .perDay{
     text-transform: uppercase;
     font-size: 14px;
+
 }
 
-.propertyType{
-    margin-left:25px;
-    display: flex;
-    align-items: center;
-}
 
 
 .propCategory{
@@ -222,11 +210,10 @@ header {
     color:#999999;
     font-family: 'Roboto Regular', Arial, sans-serif;
     font-size:14px;
-    margin-top:5px;
 }
 
 .propertyMain{
-    padding-top: 50px;
+
     float: left;
     width: 70%;
 }
@@ -450,9 +437,6 @@ header {
     padding-top:25px;
 }
 
-.amenitiesLeft{
-    float: left;
-}
 
 .amenitiesRight{
     float: right;
@@ -469,7 +453,6 @@ header {
 
 footer{
     background-color: #343434;
-    width: 100%;
     margin-top: 150px;
 }
 
