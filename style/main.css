@@ -217,6 +217,7 @@ span{
 
     float: left;
     width: 70%;
+
 }
 
 .slideshow{
@@ -229,7 +230,7 @@ span{
 .rightSideContent{
     float:right;
     width:28%;
-    padding-top: 30px;
+
 }
 
 
@@ -469,9 +470,7 @@ footer{
     font-weight: lighter;
 }
 
-.footerList li{
-    padding-bottom: 5px;
-}
+
 
 .footerList a:hover{
     opacity:0.8;
@@ -491,12 +490,16 @@ footer{
     opacity: 0.8;
 }
 
+.company li{
+    color: #ffffff;
+    padding-bottom: 5px;
+}
+
 .copyright p{
     text-align: center;
     padding: 20px 0;
     color: #ffffff;
     font-family: 'Roboto Light', Arial, sans-serif;
-    font-weight: lighter;
 }
 
 #image-gallery li{
